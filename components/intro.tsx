@@ -42,6 +42,7 @@ export default function Intro() {
 							type: 'tween',
 							delay: 0.3,
 							duration: 0.5,
+							stiffness: 125,
 						}}></motion.span>
 				</div>
 			</div>
@@ -59,7 +60,7 @@ export default function Intro() {
 
 			<motion.div
 				className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
-				initial={{ opacity: 0, y: 900 }}
+				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ delay: 0.1 }}>
 				<Link
