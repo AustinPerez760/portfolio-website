@@ -3,7 +3,7 @@ import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
 import corpcommentImg from '../public/images/corpcomment.png';
 import rmtdevImg from '../public/images/rmtdev.png';
-import wordanalyticsImg from '../public/images/wordanalytics.png';
+import remindersappImg from '../public/images/reminders-app.png';
 
 export const links = [
 	{
@@ -99,11 +99,11 @@ export const projectsData = [
 		imageUrl: rmtdevImg,
 	},
 	{
-		title: 'Word Analytics',
+		title: 'Reminders',
 		description:
-			'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-		tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-		imageUrl: wordanalyticsImg,
+			'A public web app for logging and tracking user input in the form of a personal reminder. Utilizes React Context API, React Hooks, and user authentication with Kinde.',
+		tags: ['React', 'TypeScript', 'Kinde', 'Tailwind', 'Vite'],
+		imageUrl: remindersappImg,
 	},
 ] as const;
 
