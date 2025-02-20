@@ -2,7 +2,7 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
 import corpcommentImg from '../public/images/corpcomment.png';
-import rmtdevImg from '../public/images/rmtdev.png';
+import NoteSurfImg from '../public/images/NoteSurf.png';
 import remindersappImg from '../public/images/reminders-app.png';
 
 export const links = [
@@ -85,18 +85,29 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: 'CorpComment',
+		title: 'Project Newt',
 		description:
-			'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-		tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+			'I worked as a full-stack engineer on a robust project for NextEra Energy. Creating a complex Excel like web application. capable of handling large data sets and complex calculations.',
+		tags: ['Vite', 'Vitest', 'DynamoDB', 'MDUI', 'TypeScript'],
 		imageUrl: corpcommentImg,
+		link: 'https://www.nexteraenergy.com/',
 	},
 	{
-		title: 'rmtDev',
+		title: 'NoteSurf',
 		description:
-			'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-		tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-		imageUrl: rmtdevImg,
+			'Pin a thought, idea, question, or task to your personal board. A MERN stack web application with full user authentication and CRUD functionality. ',
+		tags: [
+			'React',
+			'JavaScript',
+			'MongoDB',
+			'Tailwind',
+			'Express',
+			'Node.js',
+			'Vite',
+		],
+
+		imageUrl: NoteSurfImg,
+		link: 'https://github.com/AustinPerez760/NoteSurf-app',
 	},
 	{
 		title: 'Reminders',
@@ -104,6 +115,7 @@ export const projectsData = [
 			'A public web app for logging and tracking user input in the form of a personal reminder. Utilizes React Context API, React Hooks, and user authentication with Kinde.',
 		tags: ['React', 'TypeScript', 'Kinde', 'Tailwind', 'Vite'],
 		imageUrl: remindersappImg,
+		link: 'https://reminder-app-six-mauve.vercel.app/',
 	},
 ] as const;
 

@@ -12,7 +12,8 @@ export default function Project({
 	description,
 	tags,
 	imageUrl,
-}: ProjectProps) {
+	link,
+}: ProjectProps & { link: string }) {
 	const ref = useRef<HTMLDivElement>(null);
 	const { scrollYProgress } = useScroll({
 		target: ref,
@@ -43,12 +44,14 @@ export default function Project({
 					</ul>
 				</div>
 
-				<Image
-					src={imageUrl}
-					alt={'Project I worked on'}
-					quality={95}
-					className='absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition group-hover:sc-[1.04] group-hover:translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:right-[initial] group-even:-left-40 '
-				/>
+				<a href={link} target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+					<Image
+						src={imageUrl}
+						alt={'Project I worked on'}
+						quality={95}
+						className='absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition group-hover:scale-[1.04] group-hover:translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:right-[initial] group-even:-left-40'
+					/>
+				</a>
 			</motion.section>
 		</motion.div>
 	);
