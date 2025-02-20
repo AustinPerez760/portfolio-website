@@ -9,7 +9,7 @@ import ThemeSwitch from '@/components/theme-switch';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-	title: 'Sam Perez | Portfolio',
+	title: 'Austin Perez | Portfolio',
 	description: 'Full-stack developer and designer',
 };
 
