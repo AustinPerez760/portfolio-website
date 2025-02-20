@@ -135,6 +135,7 @@ export const skillsData = [
 	'Vitest',
 	'Git',
 	'GitHub',
+	'Copilot',
 	'DynamoDB',
 	'MongoDB',
 	'GraphQL',
@@ -144,4 +145,8 @@ export const skillsData = [
 	'Framer Motion',
 	'StoryBook',
 	'WordPress',
+	'Windsurf',
+	'CursorAI',
+	'ClaudeAI',
+	'DeepSeekAI',
 ] as const;
