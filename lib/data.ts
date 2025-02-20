@@ -1,7 +1,7 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
-import corpcommentImg from '../public/images/corpcomment.png';
+import adminImg from '../public/images/admin.png';
 import NoteSurfImg from '../public/images/NoteSurf.png';
 import remindersappImg from '../public/images/reminders-app.png';
 
@@ -89,7 +89,7 @@ export const projectsData = [
 		description:
 			'I worked as a full-stack engineer on a robust project for NextEra Energy. Creating a complex Excel like web application. capable of handling large data sets and complex calculations.',
 		tags: ['Vite', 'Vitest', 'DynamoDB', 'MDUI', 'TypeScript'],
-		imageUrl: corpcommentImg,
+		imageUrl: adminImg,
 		link: 'https://www.nexteraenergy.com/',
 	},
 	{
