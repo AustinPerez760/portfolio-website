@@ -24,9 +24,9 @@ export default function Contact() {
 			<SectionHeading>Contact me</SectionHeading>
 
 			<p className='text-gray-800 -mt-7 dark:text-white'>
-				Please constact me directly at{' '}
-				<a className='underline' href=''>
-					austinperezwebdev@gmai.com
+				Please contact me directly at{' '}
+				<a className='underline' href='mailto:austinperezwebdev@gmail.com'>
+					austinperezwebdev@gmail.com
 				</a>{' '}
 				or through this form
 			</p>
@@ -49,7 +49,7 @@ export default function Contact() {
 					placeholder='Your Email'
 				/>
 				<textarea
-					className='h-52 my-3 rounded-lg borderBlack p-4'
+					className='h-52 my-3 rounded-lg borderBlack p-4 text-gray-700'
 					name='message'
 					placeholder='Your Message'
 					required
