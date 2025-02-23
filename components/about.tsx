@@ -17,8 +17,8 @@ export default function About() {
 			id='about'>
 			<SectionHeading>About me</SectionHeading>
 			<p className='mb-3 dark:text-white'>
-				From fortune 100 companies, startups, and independent clients acorss the
-				country I have been fortunate to work with a diverse range of clients
+				From fortune 100 companies, startups, and independent clients across the
+				country I have been fortunate to work with a diverse range of projects,
 				and technologies. My focus has been consistent throught my journey as a
 				web developer, to deliver high quality, performance driven and
 				accessible web based projects to share with the world. I have a constant
