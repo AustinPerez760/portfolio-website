@@ -53,12 +53,12 @@ export const experiencesData = [
 		title: 'Software Consultant',
 		location: 'San Diego CA',
 		description:
-			'I held the role of Software Consultant for Global Flow Cycling during the companies early planning and development stages.',
+			'I held the role of Software Consultant for JW Installations during the companies early planning and development stages.',
 		icon: React.createElement(CgWorkAlt),
 		date: '2024 - 2025',
 	},
 	{
-		title: 'Software Tester II',
+		title: 'Software Test Engineer II',
 		location: 'Remote, TX',
 		description:
 			'I worked as a systems software tester for the Tandem Source web applications launched in both the U.S and Canada. Focusing on both R&D, automation, and production software.',
