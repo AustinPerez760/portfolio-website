@@ -32,8 +32,14 @@ export default function Contact() {
 			</p>
 			<form
 				className='mt-10 flex flex-col'
-				action='https://formsubmit.co/77a43c7969913e6b4b82113b47ec1370'
-				method='POST'>
+				action={async (formData) => {
+					const { data, error } = await sendEmail(formData);
+					if (error) {
+						toast.error(error);
+						return;
+					}
+					toast.success('Message sent!');
+				}}>
 				<input
 					className='h-14 rounded-lg borderBlack p-4'
 					name='senderEmail'
