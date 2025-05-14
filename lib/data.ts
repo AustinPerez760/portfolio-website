@@ -50,23 +50,23 @@ export const experiencesData = [
 		date: '2019 - Present',
 	},
 	{
-		title: 'Software Consultant',
+		title: 'Software Consultant & Jr. Web Developer',
 		location: 'San Diego CA',
 		description:
-			'I held the role of Software Consultant for JW Installations during the companies early planning and development stages.',
+			'I held the role of Software Consultant and Jr. Web Developer for Global Flow Cycling during the companies early planning and development stages.',
 		icon: React.createElement(CgWorkAlt),
 		date: '2024 - 2025',
 	},
 	{
-		title: 'Software Test Engineer II',
+		title: 'Software Test Engineer',
 		location: 'Remote, TX',
 		description:
-			'I worked as a systems software tester for the Tandem Source web applications launched in both the U.S and Canada. Focusing on both R&D, automation, and production software.',
+			'I worked as a systems software test engineer for the Tandem Source web applications launched in both the U.S and Canada. Focusing on both R&D, automation, and production software.',
 		icon: React.createElement(CgWorkAlt),
 		date: '2022 - 2024',
 	},
 	{
-		title: 'Software Tester I',
+		title: 'Software Tester',
 		location: 'San Diego, CA',
 		description:
 			'I worked as a systems software tester preforming and writing manual code tests for digital health systems software in accordance with company software development lifecycles and FDA guidelines.',
@@ -80,6 +80,14 @@ export const experiencesData = [
 			'I completed a 6 month project focused bootcamp where I focused on full-srtack engineering and web development.',
 		icon: React.createElement(LuGraduationCap),
 		date: '2021 - 2022',
+	},
+	{
+		title: 'Miracosta College',
+		location: 'San Diego, CA',
+		description:
+			'I successfully earned an associates degree in business administration.',
+		icon: React.createElement(LuGraduationCap),
+		date: '2014 - 2016',
 	},
 ] as const;
 
@@ -135,11 +143,9 @@ export const skillsData = [
 	'Vitest',
 	'Git',
 	'GitHub',
-	'Copilot',
 	'DynamoDB',
 	'MongoDB',
 	'GraphQL',
-	'Apollo',
 	'Express',
 	'PostgreSQL',
 	'Framer Motion',
@@ -148,5 +154,7 @@ export const skillsData = [
 	'Windsurf',
 	'CursorAI',
 	'ClaudeAI',
+	'OllamaAI',
+	'OpenAI',
 	'DeepSeekAI',
 ] as const;
