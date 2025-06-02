@@ -77,15 +77,25 @@ export const experiencesData = [
 		title: 'University of California San Diego',
 		location: 'San Diego, CA',
 		description:
-			'I completed a 6 month project focused bootcamp where I focused on full-srtack engineering and web development.',
+			'I completed a 12 month project focused bootcamp where I focused on full-stack engineering and modern web development.',
 		icon: React.createElement(LuGraduationCap),
 		date: '2021 - 2022',
 	},
+
+	{
+		title: 'University of California San Diego',
+		location: 'San Diego, CA',
+		description:
+			'I succesfully obtained a bachelors degree in computer science from UCSD',
+		icon: React.createElement(LuGraduationCap),
+		date: '2018 - 2020',
+	},
+
 	{
 		title: 'Miracosta College',
 		location: 'San Diego, CA',
 		description:
-			'I successfully earned an associates degree in business administration.',
+			'I successfully earned an associates degree in business administration .',
 		icon: React.createElement(LuGraduationCap),
 		date: '2014 - 2016',
 	},
